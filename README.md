@@ -6,13 +6,9 @@
 **Une application React éducative explorant 3 angles fondamentaux**
 
 [ Description](#-description) •
-
 [ Fonctionnalités](#-fonctionnalités) •
-
 [ Installation](#️-installation) •
-
 [ Structure](#-structure) •
-
 [ Concepts Appris](#-concepts-appris)
 
 </div>
@@ -255,6 +251,23 @@ https://github.com/user-attachments/assets/cf9df0fe-8b16-4321-bc55-9412082d8525
 
 
 
+https://github.com/user-attachments/assets/ed88b612-f746-4660-9a3f-70663eceaf5b
+
+
+
+
+https://github.com/user-attachments/assets/81dc31cc-c705-4221-9646-7e9771c9a6b9
+
+
+
+
+
+https://github.com/user-attachments/assets/4fd716e9-41f2-43a7-a7da-557e7112bc13
+
+
+
+
+https://github.com/user-attachments/assets/626bbedd-cbf9-49a2-8a59-837d3d6ba612
 
 
 
@@ -265,6 +278,5 @@ https://github.com/user-attachments/assets/cf9df0fe-8b16-4321-bc55-9412082d8525
 
 
 
-</div>
-```
+
 
