@@ -1,22 +1,15 @@
-Voici un fichier README.md complet et professionnel pour votre TP React :
 
-```markdown
-# 🌟 TP React - Maîtrise des Concepts Fondamentaux
+#  TP React - Maîtrise des Concepts Fondamentaux
 
-<div align="center">
 
-![React](https://img.shields.io/badge/React-18.2.0-61DAFB?style=for-the-badge&logo=react)
-![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-F7DF1E?style=for-the-badge&logo=javascript)
-![CSS3](https://img.shields.io/badge/CSS3-Modern-1572B6?style=for-the-badge&logo=css3)
-![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
-
+</div>
 **Une application React éducative explorant 3 angles fondamentaux**
 
-[📖 Description](#-description) •
-[🚀 Fonctionnalités](#-fonctionnalités) •
-[🛠️ Installation](#️-installation) •
-[📁 Structure](#-structure) •
-[🎯 Concepts Appris](#-concepts-appris)
+[ Description](#-description) •
+[ Fonctionnalités](#-fonctionnalités) •
+[ Installation](#️-installation) •
+[ Structure](#-structure) •
+[ Concepts Appris](#-concepts-appris)
 
 </div>
 
