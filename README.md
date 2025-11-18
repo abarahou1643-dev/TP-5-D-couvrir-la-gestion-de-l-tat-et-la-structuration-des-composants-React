@@ -1,46 +1,56 @@
 
 #  TP React - Maîtrise des Concepts Fondamentaux
-
+  
 
 </div>
 **Une application React éducative explorant 3 angles fondamentaux**
 
 [ Description](#-description) •
+
 [ Fonctionnalités](#-fonctionnalités) •
+
 [ Installation](#️-installation) •
+
 [ Structure](#-structure) •
+
 [ Concepts Appris](#-concepts-appris)
 
 </div>
 
-## 📖 Description
+## Description
 
 Ce TP React est une application éducative conçue pour maîtriser les concepts fondamentaux de React à travers trois angles d'apprentissage distincts. Chaque section explore des patterns essentiels avec des implémentations pratiques et visuellement attrayantes.
 
-## 🚀 Fonctionnalités
 
-### 📝 Angle 1 : Formulaires React
+##  lien Drive :
+
+https://drive.google.com/file/d/1KJ6zbCcdop6eIvTBS4VNvNmECoV8TmtQ/view?usp=sharing
+
+
+##  Fonctionnalités
+
+###  Angle 1 : Formulaires React
 - **Formulaire Contrôlé** : Gestion d'état avec `useState`
 - **Formulaire Non Contrôlé** : Accès DOM avec `useRef`
 - **Validation en temps réel** avec messages d'erreur
 - **Prévisualisation** des données saisies
 - **Design responsive** avec animations
 
-### 🌡️ Angle 2 : Convertisseur de Température
+###  Angle 2 : Convertisseur de Température
 - **Lifting State Up** : Partage d'état entre composants
 - **Conversion automatique** Celsius/Fahrenheit/Kelvin
 - **Interface interactive** avec résultats en temps réel
 - **Historique** des conversions
 - **Design moderne** avec indicateurs visuels
 
-### 👤 Angle 3 : Gestion de Session
+###  Angle 3 : Gestion de Session
 - **Context API** pour l'état global
 - **Système d'authentification** multi-utilisateurs
 - **Profil utilisateur** avec statistiques
 - **Gestion de thème** (light/dark)
 - **Timer de session** en temps réel
 
-## 🛠️ Installation
+##  Installation
 
 ### Prérequis
 - Node.js (version 14 ou supérieure)
@@ -76,7 +86,7 @@ npm run build  # Crée une version de production
 npm test       # Lance les tests
 ```
 
-## 📁 Structure du Projet
+##  Structure du Projet
 
 ```
 src/
@@ -93,9 +103,9 @@ src/
 └── index.js                       Point d'entrée
 ```
 
-## 🎯 Concepts Appris
+##  Concepts Appris
 
-### ⚛️ Concepts React Maîtrisés
+###  Concepts React Maîtrisés
 
 | Concept | Implémentation | Fichier |
 |---------|----------------|---------|
@@ -107,7 +117,7 @@ src/
 | **Gestion Événements** | onSubmit, onChange | Tous les formulaires |
 | **Props & Rendering** | Communication composants | Multiple |
 
-### 🎨 Concepts CSS Modernes
+###  Concepts CSS Modernes
 
 - **CSS Variables** pour un design system cohérent
 - **Flexbox & Grid** pour des layouts responsives
@@ -115,9 +125,9 @@ src/
 - **Gradients & Shadows** pour le design moderne
 - **Media Queries** pour le responsive design
 
-## 🔧 Composants Détaillés
+##  Composants Détaillés
 
-### 📝 FormulaireControle.js
+### FormulaireControle.js
 ```javascript
 // Gestion d'état avec useState
 const [formData, setFormData] = useState({
@@ -131,7 +141,7 @@ const validateForm = () => { ... };
 const handleSubmit = (e) => { ... };
 ```
 
-### 🎯 FormulaireNonControle.js
+###  FormulaireNonControle.js
 ```javascript
 // Références DOM avec useRef
 const nomRef = useRef();
@@ -144,7 +154,7 @@ const formData = {
 };
 ```
 
-### 🌡️ TemperatureConvertor.js
+###  TemperatureConvertor.js
 ```javascript
 // Lifting state up
 const [celsius, setCelsius] = useState('');
@@ -157,7 +167,7 @@ const [fahrenheit, setFahrenheit] = useState('');
 />
 ```
 
-### 👤 Profil.js avec Context
+###  Profil.js avec Context
 ```javascript
 // Utilisation du contexte
 const { utilisateur, setUtilisateur } = useContext(UtilisateurContext);
@@ -168,7 +178,7 @@ const deconnexion = () => {
 };
 ```
 
-## 🎨 Design System
+##  Design System
 
 ### Couleurs
 ```css
@@ -192,7 +202,7 @@ const deconnexion = () => {
 - Formulaires avec validation visuelle
 - Indicateurs de statut animés
 
-## 📱 Responsive Design
+##  Responsive Design
 
 L'application s'adapte parfaitement à tous les écrans :
 
@@ -200,7 +210,7 @@ L'application s'adapte parfaitement à tous les écrans :
 - **Tablette** : Adaptation progressive
 - **Mobile** : Design stack vertical
 
-## 🚀 Déploiement
+##  Déploiement
 
 ### Build de production
 ```bash
@@ -218,7 +228,7 @@ npm install -g vercel
 vercel
 ```
 
-## 🔍 Points Techniques Importants
+##  Points Techniques Importants
 
 ### Performance
 - **Memoisation** des composants quand nécessaire
@@ -235,56 +245,25 @@ vercel
 - Styles centralisés avec variables CSS
 - Structure de projet claire
 
-## 🤝 Contribution
+### Vidéo de Démonstration
 
-Les contributions sont les bienvenues ! Pour contribuer :
+https://github.com/user-attachments/assets/ead6bdb9-be0c-46de-90fb-9f0780789f38
 
-1. Fork le projet
-2. Créer une branche feature (`git checkout -b feature/AmazingFeature`)
-3. Commit les changements (`git commit -m 'Add AmazingFeature'`)
-4. Push sur la branche (`git push origin feature/AmazingFeature`)
-5. Ouvrir une Pull Request
 
-## 📝 Journal d'Apprentissage
 
-### Difficultés Rencontrées
-1. **Gestion d'état complexe** dans le convertisseur
-2. **Synchronisation** entre les inputs température
-3. **Optimisation** des performances avec Context API
+https://github.com/user-attachments/assets/cf9df0fe-8b16-4321-bc55-9412082d8525
 
-### Solutions Implémentées
-1. **Lifting state up** pour une source de vérité unique
-2. **useEffect** pour les conversions automatiques
-3. **Memoisation** des composants enfants
 
-## 🎓 Objectifs Pédagogiques Atteints
 
-✅ **Compréhension profonde** de useState et useRef  
-✅ **Maîtrise** du pattern "Lifting State Up"  
-✅ **Implémentation pratique** de Context API  
-✅ **Création** d'interfaces utilisateur modernes  
-✅ **Gestion** d'état d'application complexe  
 
-## 👨‍💻 Auteur
+
+
+##  Auteur
 
 **Aicha Barahou**  
-- Étudiante en développement React
-- Passionnée par les interfaces utilisateur modernes
-- [GitHub](https://github.com/aicha-barahou)
 
-## 📄 License
 
-Ce projet est sous licence MIT. Voir le fichier `LICENSE` pour plus de détails.
 
----
-
-<div align="center">
-
-### 🚀 Prêt à maîtriser React ?
-
-**Démarrez l'application et explorez les 3 angles d'apprentissage !**
-
-[⬆️ Retour en haut](#-tp-react---maîtrise-des-concepts-fondamentaux)
 
 </div>
 ```
